@@ -1,10 +1,12 @@
+<!-- 
+    
 1). HTML stands for Hyper Text Markup Language. 
     It's a Markup language not a programming language. 
     It's purpose is to markup the content hence giving structure to the web pages and web apps.
 
     The table tag has two sections: <thead> and <tbody>
-    thead is used for the column headings. th represents the different heads of thead.
-    tbody is the data of the thead. tr stands for table row and td stands for table data. 
+    <thead> is used for the column headings. <th> represents the different heads of thead.
+    <tbody> is the data of the thead. <tr> stands for table row and <td> stands for table data. 
 
     Example:
     <table>
@@ -37,7 +39,7 @@
     </table>
 
     <ol> & <ul>
-    ol and ul stand for Ordered Lists and Unordered Lists respectively. 
+    These stand for Ordered Lists and Unordered Lists respectively. 
     Both of them are BLOCK-LEVEL elements. 
 
     Example:
@@ -55,8 +57,11 @@
         <li>English Triffle</li>
     </ul>
 
-    form is a BLOCK-LEVEL element whereas label and input are IN-LINE elements.
+    <form> is a BLOCK-LEVEL element whereas <label> and <input> are IN-LINE elements.
     A form is used when data of the user is to be collected. This data is then sent to the database.
+    Label is used for labelling the input area and input allows the user to record his/her response.
+    
+    Example:
     <form>
         <label>Foreigner</label>
         <input type="checkbox"/>
@@ -70,10 +75,12 @@
 
     Self ending elements close within the opening tag iself without requiring a separate closing tag.
     <area />, <base />, <link />, <source /> are some of the Self ending elements.
-    They are IN-LINE elements. 
+    They are IN-LINE elements.  -->
 
 
-2). <pre>
+<!-- 2).  -->
+
+    <pre>
 
     &lt;!DOCTYPE html&gt;
     &lt;html&gt;
@@ -91,6 +98,8 @@
     </pre>
 
 
+<!-- 
+
 3). HTML quotes are used to insert quoted texts in a web page, that is portion of texts different from the normal texts in the web page.
 
     &lt; - stands for lesser than(<) symbol
@@ -104,20 +113,23 @@
 4). <video> element is required to embed the video in an document. 
 
     <video> - This element is responsible for rendering a video.
-    controls - attribute which provides a play button, volume option, subtitles and other options to a video/audio file.
+    controls - Its a boolean attribute. When present, it specifies that audio/video controls should be displayed(Captions, Play button, etc).
     src - (Source) - it acts as a source to the image/video. It could be an absolute/relative link.
     poster - This is used to provide a thumbnail to the video
     width - This specifies the width of the input element
-    height - This specifies the height of the input element
+    height - This specifies the height of the input element -->
 
 
+<!-- 
+    
 5). HTML Attributes are the properties of an element that are used to control the element's behaviour.
     -Without the attributes, we wouldn't be able to provide functionalities to that element.
     -For example, without the 'src' attribute, an image cannot be displayed. 
-    -Only because of the 'type' attribute, we are able to give the user to access a textbox, checkbox, calendar and etc.
+    -Only because of the 'type' attribute, we are able to let the user access a textbox, checkbox, calendar and etc.
     -And a video wont be much useful without the 'controls' attribute, as it gives the play button and many more options.
     
-    Example:
+    Example: -->
+    
     <!DOCTYPE html>
 
     <html>
@@ -150,11 +162,17 @@
         </body>
     </html>
 
-    The various attributes used in the above example are :
+    <!-- 
+        The various attributes used in the above example are :
         a). src - (Source) url for external link/relative path for displaying an image or video
         b). alt - Serves as a caption for the image, will be displayed only if the image fails to load
         c). href - (Hypertext REFerence), used to provide (absolute/relative/root relative)link
         d). target - This attribute specifies where to open the document
-        e). controls - Its a boolean attribute. When present, it specifies that audio/video controls should be displayed(Captions, Play button, etc).
+        e). controls - Attribute which provides a play button, volume option, subtitles and other options to a video/audio file.
         f). poster - It specifies an image to be shown while the video is downloading, or the user plays the video.
         g). type - In the case of input fields, we can choose if its to be a text, date etc.
+
+    By the 'src' attribute, the absolute link for an image from the internet could be attached.
+    The 'type' attribute helps in displaying the list in Roman numerals.
+    The 'target' attribute helps in opening the third-party link in a new tab.
+    The 'type' attribute lets the user select a range and a date from the calendar.  -->
